@@ -43,8 +43,8 @@ Clone the repository:
 
 Bash
 
-git clone https://github.com/your-username/mehta-bank-cli.git
-cd mehta-bank-cli
+git clone https://github.com/mohitmehta03/Bank-Manament_consol-Application.git
+cd Bank-Manament_consol-Application
 Install dependencies:
 This project requires the colorama library for colored terminal text.
 
