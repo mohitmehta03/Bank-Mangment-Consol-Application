@@ -1,0 +1,57 @@
+[
+    {
+        "date": "2025-09-14 17:34:43",
+        "type": "Deposit",
+        "amount": 5.0
+    },
+    {
+        "date": "2025-09-14 17:35:32",
+        "type": "Deposit",
+        "amount": 4.0
+    },
+    {
+        "date": "2025-09-14 17:35:39",
+        "type": "Withdrawal",
+        "amount": 1.0
+    },
+    {
+        "date": "2025-09-14 17:44:41",
+        "type": "Deposit",
+        "amount": 3.0
+    },
+    {
+        "date": "2025-09-14 17:46:19",
+        "type": "Deposit",
+        "amount": 1.0
+    },
+    {
+        "date": "2025-09-14 17:46:24",
+        "type": "Withdrawal",
+        "amount": 1.0
+    },
+    {
+        "date": "2025-09-14 22:06:50",
+        "type": "Deposit",
+        "amount": 13.0
+    },
+    {
+        "date": "2025-09-14 22:07:05",
+        "type": "Withdrawal",
+        "amount": 11.0
+    },
+    {
+        "date": "2025-09-14 22:11:04",
+        "type": "Deposit",
+        "amount": 44.0
+    },
+    {
+        "date": "2025-09-14 22:11:11",
+        "type": "Withdrawal",
+        "amount": 11.0
+    },
+    {
+        "date": "2025-09-14 22:15:44",
+        "type": "Deposit",
+        "amount": 22.0
+    }
+]
