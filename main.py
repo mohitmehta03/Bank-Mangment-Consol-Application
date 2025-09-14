@@ -223,7 +223,7 @@ def view_transaction_history(account_number):
 def Banking_calculators():
     while True:
         print(Style.BRIGHT + Back.LIGHTMAGENTA_EX + "\n--- Financial Calculators ---")
-        print(Style.BRIGHT + "\t1. Load EMI Calculator\n\t2. Fixed Deposite Calculator\n\t3. Recurring Deposite\n\t4. Return to Main Menu")
+        print(Style.BRIGHT + "\t1. Loan EMI Calculator\n\t2. Fixed Deposite Calculator\n\t3. Recurring Deposite calculator\n\t4. Return to Main Menu")
         choice = input(Style.BRIGHT + Fore.CYAN + "Enter your choice (1-4): ")
         
         if choice == '1':
@@ -251,6 +251,8 @@ def Banking_calculators():
                 amount = principal * (1 + annual_rate / (n * 100))**(n * tenure_years)
                 loading_animation()
                 print(Fore.GREEN + Style.BRIGHT + f"\nMaturity amount after {tenure_years} years: ₹{amount:.2f}")
+                print(Fore.GREEN + Style.BRIGHT + f"Total interest earned: ₹{amount - principal:.2f}")
+                print(Fore.GREEN + Style.BRIGHT + f"Total investment: ₹{principal:.2f}")
             except ValueError:
                 print(Fore.RED + "Invalid input. Please enter numeric values.")
             input("Press Enter to return to the calculator menu...")
